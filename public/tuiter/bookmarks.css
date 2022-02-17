@@ -1,0 +1,83 @@
+/* font */
+.wd-title-font {
+  font-size: 20px;
+  font-weight: bold;
+}
+.wd-post-author-font-size {
+  font-size: 15px;
+}
+.wd-handle-font-size {
+  font-size: 13px;
+}
+.wd-number-font-size {
+  font-size: 13px;
+}
+.wd-post-title-font {
+  font-size: 15px;
+  font-weight: bold;
+}
+.wd-icon-link-text {
+  text-decoration: none;
+  color: rgb(110, 118, 125);
+}
+
+/* padding */
+.wd-padded-top-12 {
+  padding-top: 12px;
+}
+.wd-padded-top-5 {
+  padding-top: 5px;
+}
+.wd-padded-bot-12 {
+  padding-bottom: 12px;
+}
+.wd-padded-left-12 {
+  padding-left: 12px;
+}
+.wd-padded-right-40 {
+  padding-right: 40px;
+}
+.wd-padded-left-right-40 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* dimensions */
+.wd-max-width-post-content {
+  max-width: 506px;
+}
+.wd-dim-post-image {
+  width: 506px;
+  height: 264px;
+}
+
+/* borders */
+.wd-border-thin {
+  border-style: solid;
+  border-width: 1px;
+}
+.wd-border-thin-top {
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+/* rounded corners */
+.wd-border-circle {
+  border-radius: 50%;
+}
+.wd-rounded-corners-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.wd-rounded-corners-bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* grid */
+.grid-row {
+  clear: both;
+}
+.grid-col {
+  float: left;
+}
