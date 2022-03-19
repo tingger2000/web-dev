@@ -29,6 +29,7 @@ const PostSummaryItem = ({
             src={post.image}
             width="80px"
             height="80px"
+            alt="..."
           />
         </div>
       </div>

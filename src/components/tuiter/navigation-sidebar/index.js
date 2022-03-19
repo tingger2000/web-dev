@@ -11,6 +11,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "home" ? "active" : ""
           }`}
+          href="/home"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-home"></i> Home
@@ -23,6 +24,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "explore" ? "active" : ""
           }`}
+          href="/tuiter"
           aria-current="true"
         >
           <div className="d-none d-xl-block">
@@ -36,6 +38,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "notifications" ? "active" : ""
           }`}
+          href="/notifications"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-bell"></i> Notifications
@@ -48,6 +51,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "messages" ? "active" : ""
           }`}
+          href="/messages"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-envelope"></i> Messages
@@ -60,6 +64,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "bookmarks" ? "active" : ""
           }`}
+          href="/bookmarks"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-bookmark"></i> Bookmarks
@@ -72,6 +77,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "lists" ? "active" : ""
           }`}
+          href="/lists"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-list"></i> Lists
@@ -84,6 +90,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "profile" ? "active" : ""
           }`}
+          href="/profile"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-user"></i> Profile
@@ -96,6 +103,7 @@ const NavigationSidebar = ({ active = "explore" }) => {
           className={`list-group-item list-group-item-action ${
             active === "more" ? "active" : ""
           }`}
+          href="/more"
         >
           <div className="d-none d-xl-block">
             <i className="fas fa-ellipsis-h"></i> More
