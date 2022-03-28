@@ -2,7 +2,6 @@ import React from "react";
 
 const NavigationSidebarItem = ({
   nav = {
-    link: "/tuiter",
     text: "Home",
     icon: "fas fa-home",
     active: false,
@@ -13,7 +12,7 @@ const NavigationSidebarItem = ({
       className={`list-group-item list-group-item-action ${
         nav.active ? "active" : ""
       }`}
-      href={nav.link}
+      href={`/tuiter/${nav.link ? nav.link : ""}`}
     >
       <div className="d-none d-xl-block">
         <i className={nav.icon} /> {nav.text}
