@@ -17,7 +17,7 @@ const PostSummaryItem = ({
           <div className="text-secondary">{post.topic}</div>
           <div className="d-flex">
             <div className="fw-bold">{post.userName}</div>
-            <i className="fas fa-check-circle align-self-center px-1"></i>
+            <i className="fas fa-check-circle align-self-center px-1" />
             <div className="text-secondary">- {post.time}</div>
           </div>
           <div className="fw-bold">{post.title}</div>

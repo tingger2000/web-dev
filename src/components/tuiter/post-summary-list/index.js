@@ -3,9 +3,9 @@ import posts from "./posts.json";
 
 const PostSummaryList = () => {
   return (
-    <ul class="list-group list-group-flush">
+    <ul className="list-group list-group-flush">
       {posts.map((post) => {
-        return <PostSummaryItem post={post} />;
+        return <PostSummaryItem key={post.time} post={post} />;
       })}
     </ul>
   );
