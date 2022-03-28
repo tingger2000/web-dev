@@ -3,7 +3,7 @@ const NavigationSidebar = () => {
             <div class="list-group">
                 <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
-                <a href="../home.html" class="list-group-item list-group-item-action">
+                <a href="../prev-home.html" class="list-group-item list-group-item-action">
                     <div class="d-none d-xl-block">
                         <i class="fas fa-home"></i> Home
                      </div>
@@ -12,7 +12,7 @@ const NavigationSidebar = () => {
                      </div>
                  </a> 
                  <a
-                   href="../ExploreScreen/explore.html"
+                   href="../ExploreScreen/prev-explore.html"
                    class="list-group-item list-group-item-action active"
                    aria-current="true"
                  >
@@ -46,7 +46,7 @@ const NavigationSidebar = () => {
                   </div>
                 </a>
                 <a
-                  href="../bookmarks.html"
+                  href="../prev-bookmarks.html"
                   class="list-group-item list-group-item-action"
                 >
                   <div class="d-none d-xl-block">
@@ -65,7 +65,7 @@ const NavigationSidebar = () => {
                   </div>
                 </a>
                 <a
-                  href="../profile.html"
+                  href="../prev-profile.html"
                   class="list-group-item list-group-item-action"
                 >
                   <div class="d-none d-xl-block">
@@ -85,7 +85,7 @@ const NavigationSidebar = () => {
                 </a>
             </div>
             <div class="d-grid mt-2">
-                <a href="../tuit.html"
+                <a href="../prev-tuit.html"
                    class="btn btn-primary btn-block rounded-pill">
                     Tuit</a>
             </div>
