@@ -35,7 +35,7 @@ const TuitListItem = ({
           <div className="row">
             <div className="col-11 pe-0">
               <div className="d-flex">
-                <div className="mr-auto fw-bold">
+                <div className="fw-bold">
                   {tuit.postedBy && tuit.postedBy.username}
                 </div>
                 <div className="text-secondary ps-1">@{tuit.handle}</div>

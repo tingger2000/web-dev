@@ -9,6 +9,9 @@ const tuitsReducer = (state = tuits, action) => {
         postedBy: {
           username: "ReactJS",
         },
+        handle: "kayleeg",
+        avatarImage:
+          "https://t3.ftcdn.net/jpg/00/75/33/10/360_F_75331081_axIcnWZnT1RbSsPGlgLQaCftelG158KV.jpg",
         stats: {
           retuits: 111,
           likes: 222,
