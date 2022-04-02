@@ -11,8 +11,8 @@ const ExploreComponent = () => {
         >
           <i className="fas fa-search px-3 align-self-center"></i>
           <input
-            className="border-0 p-0 wd-input-no-outline"
-            style={{ "outline-style": "none" }}
+            className="border-0 p-0"
+            style={{ outlineStyle: "none" }}
             placeholder="Search Tuiter"
           />
         </div>

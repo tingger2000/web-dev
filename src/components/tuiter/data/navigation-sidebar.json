@@ -1,0 +1,10 @@
+[
+  { "text": "Home", "icon": "fas fa-home", "active": true },
+  { "link": "explore", "text": "Explore", "icon": "fas fa-hashtag", "active": false },
+  { "link": "notifications", "text": "Notifications", "icon": "fas fa-bell", "active": false },
+  { "link": "messages", "text": "Messages", "icon": "fas fa-envelope", "active": false },
+  { "link": "bookmarks", "text": "Bookmarks", "icon": "fas fa-bookmark", "active": false },
+  { "link": "lists", "text": "Lists", "icon": "fas fa-list","active": false },
+  { "link": "profile", "text": "Profile", "icon": "fas fa-user", "active": false },
+  { "link": "more", "text": "More", "icon": "fas fa-ellipsis-h", "active": false }
+]

@@ -1,0 +1,8 @@
+.wd-rounded-corners-20 {
+  border-radius: 20px;
+}
+.wd-text-area-no-outline {
+  border: none;
+  outline-style: none;
+  color: white;
+}
