@@ -1,20 +1,18 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { createTuit } from "../actions/tuits-action";
 import "../tuiter.css";
 
 const WhatsHappening = () => {
-  let [whatsHappening, setWhatsHappening] = useState("");
+  const [newTuit, setNewTuit] = useState({ tuit: "New tuit" });
   const dispatch = useDispatch();
-  const tuitClickHandler = () => {
-    dispatch({ type: "create-tuit", tuit: whatsHappening });
-  };
 
   return (
     <div className="row m-0 py-3">
       <div className="col-2 col-md-1 d-flex justify-content-center">
         <img
           className="rounded-circle"
-          src="https://t3.ftcdn.net/jpg/00/75/33/10/360_F_75331081_axIcnWZnT1RbSsPGlgLQaCftelG158KV.jpg"
+          src="./../../images/react-blue.png"
           width="48px"
           height="48px"
           alt="..."
@@ -24,8 +22,8 @@ const WhatsHappening = () => {
         <textarea
           className="bg-transparent wd-text-area-no-outline w-100"
           placeholder="What's happening?"
-          value={whatsHappening}
-          onChange={(event) => setWhatsHappening(event.target.value)}
+          value={newTuit.tuit}
+          onChange={(e) => setNewTuit({ ...newTuit, tuit: e.target.value })}
         />
         <hr />
         <div>
@@ -36,7 +34,7 @@ const WhatsHappening = () => {
           <div className="float-end">
             <button
               className="btn btn-primary rounded-pill"
-              onClick={tuitClickHandler}
+              onClick={() => createTuit(dispatch, newTuit)}
             >
               Tuit
             </button>

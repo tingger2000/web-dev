@@ -10,7 +10,7 @@ const NavigationSidebar = () => {
           <i className="fab fa-twitter" />
         </a>
         {navigations.map((nav) => {
-          return <NavigationSidebarItem key={nav.link} nav={nav} />;
+          return <NavigationSidebarItem key={nav.text} nav={nav} />;
         })}
       </div>
       <div className="d-grid mt-2">
