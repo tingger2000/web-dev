@@ -13,7 +13,6 @@ const TuitListItem = ({
     attachments: {},
     avatarImage: "../../../images/react-blue.png",
     likes: 0,
-    dislikes: 0,
   },
 }) => {
   const dispatch = useDispatch();
