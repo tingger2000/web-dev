@@ -4,7 +4,10 @@ import { createTuit } from "../actions/tuits-action";
 import "../tuiter.css";
 
 const WhatsHappening = () => {
-  const [newTuit, setNewTuit] = useState({ tuit: "New tuit" });
+  const [newTuit, setNewTuit] = useState({
+    tuit: "New tuit",
+    postedBy: { username: "kaylee" },
+  });
   const dispatch = useDispatch();
 
   return (
@@ -19,6 +22,15 @@ const WhatsHappening = () => {
         />
       </div>
       <div className="col-10 col-md-11">
+        Username:
+        <input
+          className="mx-2 mb-3 bg-transparent wd-text-area-no-outline 2-100"
+          placeholder="Enter username"
+          value={newTuit.postedBy.username}
+          onChange={(e) =>
+            setNewTuit({ ...newTuit, postedBy: { username: e.target.value } })
+          }
+        />
         <textarea
           className="bg-transparent wd-text-area-no-outline w-100"
           placeholder="What's happening?"
